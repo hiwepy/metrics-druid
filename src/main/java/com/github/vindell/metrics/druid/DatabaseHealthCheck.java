@@ -21,11 +21,14 @@ public class DatabaseHealthCheck extends HealthCheck {
 		
 		DruidStatService.registerMBean();
     	
-    	
+    	/*
         if (database.isConnected()) {
             return HealthCheck.Result.healthy();
         } else {
             return HealthCheck.Result.unhealthy("Cannot connect to " + database.getUrl());
-        }
+        }*/
+        
+        return HealthCheck.Result.healthy();
+        
     }
 }
