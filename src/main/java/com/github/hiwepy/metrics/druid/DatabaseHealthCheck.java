@@ -1,4 +1,4 @@
-package com.github.vindell.metrics.druid;
+package com.github.hiwepy.metrics.druid;
 
 import com.alibaba.druid.stat.DruidDataSourceStatManager;
 import com.alibaba.druid.stat.DruidStatService;

@@ -7,7 +7,7 @@
 	
 	<name>Metrics Druid Integration</name>
 	<description>Metrics + Druid for JDBC monitoring</description>
-	<url>https://github.com/vindell/metrics-druid</url>
+	<url>https://github.com/hiwepy/metrics-druid</url>
 	<packaging>jar</packaging>
 	
 	<licenses>
@@ -18,9 +18,9 @@
 	</licenses>
 
 	<scm>
-		<connection>scm:git:https:github.com/vindell/${project.artifactId}.git</connection>
-		<developerConnection>scm:git:https:github.com/vindell/${project.artifactId}.git</developerConnection>
-		<url>https:github.com/vindell/${project.artifactId}</url>
+		<connection>scm:git:https:github.com/hiwepy/${project.artifactId}.git</connection>
+		<developerConnection>scm:git:https:github.com/hiwepy/${project.artifactId}.git</developerConnection>
+		<url>https:github.com/hiwepy/${project.artifactId}</url>
 		<tag>${project.artifactId}</tag>
 	</scm>
 
